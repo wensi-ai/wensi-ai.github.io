@@ -54,7 +54,7 @@
     transition: opacity 0.3s ease-out;
 }
 
-.BackDrop.open{
+.BackDropOpen{
     opacity: 1;
 }
 

@@ -3,7 +3,7 @@ import { Link } from  'gatsby';
 import "../styles/NavBar.css"
 
 function BackDrop(props) {
-    let conditionalName= props.isOpen ? "BackDrop open" : "BackDrop"
+    let conditionalName= props.isOpen ? "BackDropOpen" : "BackDrop"
     return (
         <div className={conditionalName} onClick={()=>{
             if (props.isOpen) props.setOpen(!props.isOpen)

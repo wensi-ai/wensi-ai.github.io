@@ -1,3 +1,5 @@
+// data to be displayed in the projects and research section
+
 export let proj_en = [
     {
         "Name":  "Catching Fire"
@@ -22,7 +24,7 @@ export let proj_en = [
         "Name":  "Catan-ML"
         ,"Img": "imgs/Poster.png"
         ,"Abstract": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image gallery"
-        ,"Links": [{"[Github]": "someurl"}]
+        ,"Links": [{"[Github]": "https://github.com/Vince-Ai/CatanML"}]
     },
     {
         "Name":  "Something5"
@@ -42,10 +44,6 @@ export let proj_en = [
         ,"Abstract": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image gallery"
         ,"Links": [{"[Github]": "someurl"}]
     },
-]
-
-export let proj_zh = [
-
 ]
 
 export let research_en = [
@@ -69,10 +67,10 @@ export let research_en = [
         ]
     },
     {
-        "Name":  "ML-Hub"
+        "Name":  "CatanML"
         ,"Img": "imgs/CatchingFire.jpg"
         ,"Abstract": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image gallery"
-        ,"Links": [{"[Github]": "someurl"}]
+        ,"Links": [{"[Github]": "https://github.com/Vince-Ai/CatanML"}]
     },
     {
         "Name":  "Something5"
@@ -92,8 +90,4 @@ export let research_en = [
         ,"Abstract": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image gallery"
         ,"Links": [{"[Github]": "someurl"}]
     },
-]
-
-export let research_zh = [
-
 ]

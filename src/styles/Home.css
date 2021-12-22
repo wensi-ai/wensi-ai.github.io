@@ -1,8 +1,52 @@
-.Intro{
+/* Intro section */
+
+.Intro {
     width: 100vw;
     height: 100vh;
     top: 0;
     left: 0;
     background-image: url("/background.png");
     background-size: cover;
+    display: block;
+}
+
+.Intro h1{
+    position: absolute;
+    top: 8vw;
+    left: 0;
+    width: 100vw;
+    height: 10vh;
+    display: block;
+    text-align: center;
+
+}
+
+.Intro div {
+    display: block;
+}
+
+
+/* News section */
+.News {
+    display: block;
+    top: 0; left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.News h1 {
+    text-align: center;
+}
+
+.News ul {
+    top: 0;
+}
+
+/* Footer Section */
+
+.Footer {
+    display: block;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(0, 0, 0);
 }
