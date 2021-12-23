@@ -1,52 +1,135 @@
 /* Intro section */
 
 .Intro {
+    position: relative;
     width: 100vw;
     height: 100vh;
     top: 0;
     left: 0;
     background-image: url("/background.png");
-    background-size: cover;
+    background-size: 100% 100%;
     display: block;
 }
 
 .Intro h1{
     position: absolute;
-    top: 8vw;
-    left: 0;
+    top: 30vh;
+    left: 10vw;
     width: 100vw;
     height: 10vh;
     display: block;
-    text-align: center;
+    font-size: 3rem;
 
 }
 
 .Intro div {
     display: block;
+    position: absolute;
+    top: 45vh;
+    left: 10vw;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 
 /* News section */
 .News {
+    position: absolute;
     display: block;
-    top: 0; left: 0;
-    height: 100vh;
+    top: 100vh; left: 0;
+    height: 50vh;
     width: 100vw;
 }
+
 .News h1 {
+    position: relative;
+    top: 0;
+    left: 0;
     text-align: center;
+    font-size: 2.5rem;
 }
 
 .News ul {
-    top: 0;
+    position: relative;
+    top: 3vh;
+    left: 0;
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.25rem;
 }
 
-/* Footer Section */
+.NewsItem strong {
+    position: relative;
+    top: 0;
+    left: 10vw;
+    display: block;
+    height: 3vh;
+    width: 100vw;
+}
 
+.NewsItem div {
+    position: relative;
+    top: -3vh;
+    left: 20vw;
+    display: block;
+    width: 100vw;
+}
+
+
+/* About Section */
+.About {
+    position: absolute;
+    display: block;
+    top: 150vh; left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255,200,200);
+}
+
+
+.About h1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+
+/* Footer Section */
 .Footer {
+    position: absolute;
+    display: block;
+    top: 250vh; left: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(198, 204, 198);
+}
+
+.Footer p {
+    position: relative;
     display: block;
     top: 0; left: 0;
+    height: 2vh;
+    font-size: 1,5vh;
+    margin: 1vh 2vw;
+    justify-content: center;
+}
+
+
+.ContactImg {
+    position:absolute;
+    display: flex;
+    bottom: 0;
+    right: 2vw;
+    justify-content: flex-end;
+    align-items: center;
     width: 100vw;
-    height: 50vh;
-    background-color: rgb(0, 0, 0);
+    height: 10vh;
+}
+
+.ContactImg a img {
+    top: 0; left: 0;
+    height: 5vh;
+    padding: 0 1vw;
 }

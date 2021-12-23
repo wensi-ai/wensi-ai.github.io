@@ -2,14 +2,17 @@ import * as React from "react"
 import Navbar from "../components/Navbar"
 import Intro from "../components/Intro"
 import News from "../components/News"
+import About from "../components/About"
 import Footer from "../components/Footer"
+import "../styles/index.css"
 
 export default function Home(prpos) {
     return (
-        <div>
+        <div className="indexWrapper">
             <Navbar />
             <Intro />
             <News />
+            <About />
             <Footer />
         </div>
     )

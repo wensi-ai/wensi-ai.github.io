@@ -6,8 +6,6 @@
     left: 0;
     height: 8vh; 
     z-index: 3;
-    background-color: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(1rem);
 }
 
 .NavBarWrapper{
@@ -15,6 +13,8 @@
     display: flex;
     align-items: center;
     padding: 0, 1rem;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(1rem);
 }
 
 .NavItem a{
@@ -52,10 +52,14 @@
 
     opacity: 0;
     transition: opacity 0.3s ease-out;
+        outline: 0;
+    box-shadow: none!important;
 }
 
-.BackDropOpen{
+.BackDrop.open{
     opacity: 1;
+    outline: 0;
+    box-shadow: none!important;
 }
 
 .SideBar{
@@ -105,14 +109,19 @@
     top: 0;
     height: 40px;
     width: 40px;
-    background-image: url("/menuicon.png");
     border-width: 0;
     z-index: 10;
+    background: rgba(0,0,0,0)
+}
+
+.MenuBtn img {
+    width: 100%;
+    height: 100%;
 }
 
 .MenuBtn:hover,
 .MenuBtn:focus{
-    background: rgba(0,0,0,0);
+    background: rgba(0,0,0,0.3);
     outline: 0;
     box-shadow: none!important;
 }

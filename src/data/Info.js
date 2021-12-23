@@ -4,22 +4,26 @@ export let name = "Wensi Ai"
 export let email = "va0817@ucla.edu"
 
 // short decription will appear immediately under name
-export let short_description = ""
+export let short_description = "3rd CS & Applied Math undergraduate at UCLA"
+
 // news will appear in the news section
 export let news_en = [
     {
-        "date": "Dec 2021"
+        "date": "Dec. 2021"
         ,"content": "GenMotion introduces its first major release 0.0.4."
     },
     {
-        "date": "June 2021"
+        "date": "Jun. 2021"
         ,"content": "Joining Metabit Trading as a SWE this summer."
     },
 ]
+
 // long descrption will appear in the about section
 export let long_descroption = ""
+
 // skills will appears as tags in the about section
-export let skills = ""
+export let tech_stack = ["Python", "PyTorch", "React.js", "Gatsby.js"]
+
 // contacts will appear in the footer
 export let contacts = [
     {

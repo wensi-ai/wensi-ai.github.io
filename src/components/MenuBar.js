@@ -3,11 +3,11 @@ import { Link } from  'gatsby';
 import "../styles/NavBar.css"
 
 function BackDrop(props) {
-    let conditionalName= props.isOpen ? "BackDropOpen" : "BackDrop"
+    let conditionalName= props.isOpen ? "BackDrop open" : "BackDrop"
     return (
-        <div className={conditionalName} onClick={()=>{
+        <button className={conditionalName} aria-label="backdrop" onClick={()=>{
             if (props.isOpen) props.setOpen(!props.isOpen)
-        }}></div>
+        }} />
     );
 }
 
@@ -18,6 +18,7 @@ export function SideBar(props) {
     return(
         <div>
             <button className="MenuBtn" onClick={()=>setOpen(!isOpen)}>
+                <img src="/menuicon.png" alt="MenuBtn" />
             </button>
             <BackDrop isOpen={isOpen} setOpen={setOpen}/>
             <nav className={conditionalName}>

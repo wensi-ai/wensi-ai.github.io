@@ -10,8 +10,8 @@ export default function News(props) {
             {
                 news_en.map(function(dict){
                     return (
-                        <li>
-                            <div>{dict.date}</div>
+                        <li className='NewsItem' key={dict.content}>
+                            <strong>{dict.date}</strong>
                             <div>{dict.content}</div>
                         </li>
                     );
