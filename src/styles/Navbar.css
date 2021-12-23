@@ -4,12 +4,12 @@
     width: 100%;
     top: 0;
     left: 0;
-    height: 8vh; 
+    height: 6vh; 
     z-index: 3;
 }
 
 .NavBarWrapper{
-    height: 8vh;
+    height: 6vh;
     display: flex;
     align-items: center;
     padding: 0, 1rem;

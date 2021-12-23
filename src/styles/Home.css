@@ -2,7 +2,7 @@
 
 .Intro {
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     top: 0;
     left: 0;
@@ -15,7 +15,6 @@
     position: absolute;
     top: 30vh;
     left: 10vw;
-    width: 100vw;
     height: 10vh;
     display: block;
     font-size: 3rem;
@@ -38,7 +37,7 @@
     display: block;
     top: 100vh; left: 0;
     height: 50vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .News h1 {
@@ -56,6 +55,7 @@
     list-style-type: none;
     padding-left: 0;
     font-size: 1.25rem;
+    overflow: hidden;
 }
 
 .NewsItem strong {
@@ -64,7 +64,6 @@
     left: 10vw;
     display: block;
     height: 3vh;
-    width: 100vw;
 }
 
 .NewsItem div {
@@ -72,7 +71,6 @@
     top: -3vh;
     left: 20vw;
     display: block;
-    width: 100vw;
 }
 
 
@@ -81,7 +79,7 @@
     position: absolute;
     display: block;
     top: 150vh; left: 0;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: rgb(255,200,200);
 }
@@ -95,25 +93,57 @@
     font-size: 2.5rem;
 }
 
+.TechStack {
+    position: relative;
+    display: block;
+    top: 0; left: 0;
+    width: 100%;
+}
+
+.TechStack p {
+    display: inline-block;
+    margin: 1vh 3vw;
+    padding: 0.6vh 1vw;
+    font-size: 1vw;
+    font-weight: 800;
+    border:3px; 
+    border-style:solid; 
+    border-color:#FF0000; 
+    border-radius: 0.7vw;
+    background-color: white;
+}
+
 
 /* Footer Section */
 .Footer {
     position: absolute;
     display: block;
     top: 250vh; left: 0;
-    width: 100vw;
-    height: 10vh;
-    background-color: rgb(198, 204, 198);
+    width: 100%;
+    height: 6vh;
+    background-color: rgb(255, 255, 255);
 }
 
-.Footer p {
+.Footer strong {
     position: relative;
     display: block;
     top: 0; left: 0;
-    height: 2vh;
-    font-size: 1,5vh;
+    height: 1.5vh;
+    font-size: 1.5vh;
     margin: 1vh 2vw;
     justify-content: center;
+}
+
+.Footer p {
+    position: absolute;
+    display: flex;
+    bottom: 0; left: 0;
+    height: 6vh;
+    width: 100%;
+    font-size: 1.5vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -121,15 +151,15 @@
     position:absolute;
     display: flex;
     bottom: 0;
-    right: 2vw;
+    right: 0;
     justify-content: flex-end;
     align-items: center;
-    width: 100vw;
-    height: 10vh;
+    width: 100%;
+    height: 6vh;
 }
 
 .ContactImg a img {
-    top: 0; left: 0;
-    height: 5vh;
+    bottom: 0; left: 0;
+    height: 3vh;
     padding: 0 1vw;
 }

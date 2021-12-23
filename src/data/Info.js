@@ -4,7 +4,7 @@ export let name = "Wensi Ai"
 export let email = "va0817@ucla.edu"
 
 // short decription will appear immediately under name
-export let short_description = "3rd CS & Applied Math undergraduate at UCLA"
+export let short_description = "3rd year CS & Applied Math undergraduate at UCLA"
 
 // news will appear in the news section
 export let news_en = [
@@ -19,10 +19,12 @@ export let news_en = [
 ]
 
 // long descrption will appear in the about section
-export let long_descroption = ""
+export let long_descroption = "I am a e"
 
 // skills will appears as tags in the about section
-export let tech_stack = ["Python", "PyTorch", "React.js", "Gatsby.js"]
+export let tech_stack = [
+    "Python", "PyTorch", "Sklearn", "Apach Airflow", "Javascript", "React.js", "C/C++"
+]
 
 // contacts will appear in the footer
 export let contacts = [
