@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from  'gatsby';
-import "../styles/NavBar.css"
+import "../styles/Navbar.css"
 
 function BackDrop(props) {
     let conditionalName= props.isOpen ? "BackDrop open" : "BackDrop"
