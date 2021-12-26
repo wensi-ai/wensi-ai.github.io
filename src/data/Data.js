@@ -48,7 +48,7 @@ export let proj_en = [
 
 export let research_en = [
     {
-        "Name":  "Catching Fire"
+        "Name":  "GenMotion"
         ,"Img": "imgs/Poster.jpg"
         ,"Abstract": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image galleryToday, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image galler"
         ,"Links": [

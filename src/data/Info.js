@@ -4,27 +4,36 @@ export let name = "Wensi Ai"
 export let email = "va0817@ucla.edu"
 
 // short decription will appear immediately under name
-export let short_description = "3rd year CS & Applied Math undergraduate at UCLA"
+export let short_description = "CS & Applied Math @ UCLA"
+
+// long descrption will appear in the about section
+export let long_descroption = `
+    I am Wensi (Vince), a 3rd year undergraduate CS & Applied Math student at UCLA. 
+    I am currently working as a research assistant at the Center for Vision, Cognition, Learning, and Autonomy (VCLA).
+    My primary research interests includes Embodied-AI, Multi-agent System, Cognitive Robotics, and Reinforcement Learning. 
+    Besides academics, I also love to do all kinds of outdoor activities, including running, hiking, cycling, etc. 
+    I can also play the violin!
+`
+
+// skills will appears as tags in the about section
+export let tech_stack = [
+    "Python", "PyTorch", "Sklearn", "Apach Airflow", "Javascript", "React.JS", "C/C++", "Linux", "Git"
+]
 
 // news will appear in the news section
 export let news_en = [
     {
         "date": "Dec. 2021"
-        ,"content": "GenMotion introduces its first major release 0.0.4."
+        ,"content": "GenMotion introduces its first major release 0.0.4. It now includes more generation models, direct Python rendering support, and better formatted tutorial notebooks."
     },
     {
         "date": "Jun. 2021"
-        ,"content": "Joining Metabit Trading as a SWE this summer."
+        ,"content": "Joining Metabit Trading as a SWE this summer. Will be working on optimizing daily data generation workflow using Apach Airflow"
     },
-]
-
-// long descrption will appear in the about section
-export let long_descroption = `I am Wensi (Vince), a 3rd year undergraduate CS & Applied Math student at UCLA. 
-    My primary research interests are Embodied-AI, Multi-agent System, Congnitive Robotics, and Reinforcement Learning` 
-
-// skills will appears as tags in the about section
-export let tech_stack = [
-    "Python", "PyTorch", "Sklearn", "Apach Airflow", "Javascript", "React.js", "C/C++"
+    {
+        "date": "Mar. 2021"
+        ,"content": "Our machine learning model for NEXT Truck employees selection reaches 97.8% accuracy in Kaggle prediction contest!"
+    },
 ]
 
 // contacts will appear in the footer

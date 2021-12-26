@@ -5,6 +5,7 @@ import "../styles/Home.css"
 export default function Intro(props) {
     return (
         <div className="Intro">
+            <img src="/intro.png" alt="IntroPng" />
             <h1>Hi, I'm {name}</h1>
             <div>{short_description}</div>
         </div>
