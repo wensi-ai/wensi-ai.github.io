@@ -3,25 +3,23 @@ import { Link } from "gatsby"
 
 // styles
 const pageStyles = {
-  color: "#232129",
-  padding: "96px",
+  backgroundImage: "url('/404.png')",
+  backgroundSize: "100% 100%",
+  display: "block",
+  height: "100vh",
+  width: "100%",
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
+  marginTop: "10vh",
+  marginLeft: "10vw",
+  fontSize: "3vmax",
 }
 
 const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
+  marginTop: "10vh",
+  marginLeft: "10vw",
+  fontSize: "1.5vmax",
 }
 
 // markup
@@ -29,21 +27,14 @@ const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
       <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
+      <h1 style={headingStyles}>Oops</h1>
       <p style={paragraphStyles}>
         Sorry{" "}
         <span role="img" aria-label="Pensive emoji">
           😔
         </span>{" "}
-        we couldn’t find what you were looking for.
+        This page doesn't exist.
         <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
         <br />
         <Link to="/">Go home</Link>.
       </p>

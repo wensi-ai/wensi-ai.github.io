@@ -9,6 +9,7 @@ import "../styles/index.css"
 export default function Home(prpos) {
     return (
         <div className="indexWrapper">
+            <title>Vince Ai</title>
             <Navbar />
             <Intro />
             <About />

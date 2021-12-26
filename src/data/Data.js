@@ -3,7 +3,7 @@
 export let proj_en = [
     {
         "Name":  "Catching Fire"
-        ,"Img": "imgs/Poster.png"
+        ,"Img": "/intro.png"
         ,"Abstract": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image galleryToday, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image galler"
         ,"Links": [
             {"[Github]": "http://github.com/vince-ai/CatchingFire"},
@@ -12,7 +12,7 @@ export let proj_en = [
     },
     {
         "Name":  "eXchange"
-        ,"Img": "imgs/Poster.png"
+        ,"Img": "/intro.png"
         ,"Abstract": "Textbook, notes, and tutoring sharing platform"
         ,"Links": [
             {"[Website]": "https://csmt-westwood.github.io/eXchange/"},
@@ -22,25 +22,25 @@ export let proj_en = [
     },
     {
         "Name":  "Catan-ML"
-        ,"Img": "imgs/Poster.png"
+        ,"Img": "/intro.png"
         ,"Abstract": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image gallery"
         ,"Links": [{"[Github]": "https://github.com/Vince-Ai/CatanML"}]
     },
     {
         "Name":  "Something5"
-        ,"Img": "imgs/Poster.png"
+        ,"Img": "/intro.png"
         ,"Abstract": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image gallery"
         ,"Links": [{"[Github]": "someurl"}]
     },
     {
         "Name":  "Something6"
-        ,"Img": "imgs/Poster.png"
+        ,"Img": "/intro.png"
         ,"Abstract": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image gallery"
         ,"Links": [{"[Github]": "someurl"}]
     },
     {
         "Name":  "Something1"
-        ,"Img": "imgs/Poster.png"
+        ,"Img": "/intro.png"
         ,"Abstract": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image gallery"
         ,"Links": [{"[Github]": "someurl"}]
     },
@@ -49,7 +49,7 @@ export let proj_en = [
 export let research_en = [
     {
         "Name":  "GenMotion"
-        ,"Img": "imgs/Poster.jpg"
+        ,"Img": "/intro.png"
         ,"Abstract": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image galleryToday, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image galler"
         ,"Links": [
             {"[Github]": "http://github.com/vince-ai/CatchingFire"},
@@ -58,7 +58,7 @@ export let research_en = [
     },
     {
         "Name":  "eXchange"
-        ,"Img": "imgs/eXchange.png"
+        ,"Img": "/intro.png"
         ,"Abstract": "Textbook, notes, and tutoring sharing platform"
         ,"Links": [
             {"[Website]": "https://csmt-westwood.github.io/eXchange/"},
@@ -68,25 +68,25 @@ export let research_en = [
     },
     {
         "Name":  "CatanML"
-        ,"Img": "imgs/CatchingFire.jpg"
+        ,"Img": "/intro.png"
         ,"Abstract": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image gallery"
         ,"Links": [{"[Github]": "https://github.com/Vince-Ai/CatanML"}]
     },
     {
         "Name":  "Something5"
-        ,"Img": "imgs/CatchingFire.jpg"
+        ,"Img": "/intro.png"
         ,"Abstract": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image gallery"
         ,"Links": [{"[Github]": "someurl"}]
     },
     {
         "Name":  "Something6"
-        ,"Img": "imgs/CatchingFire.jpg"
+        ,"Img": "/intro.png"
         ,"Abstract": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image gallery"
         ,"Links": [{"[Github]": "someurl"}]
     },
     {
         "Name":  "Something1"
-        ,"Img": "imgs/CatchingFire.jpg"
+        ,"Img": "/intro.png"
         ,"Abstract": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image gallery"
         ,"Links": [{"[Github]": "someurl"}]
     },
