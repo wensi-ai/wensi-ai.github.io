@@ -11,8 +11,8 @@ export default function Home(prpos) {
         <div className="indexWrapper">
             <Navbar />
             <Intro />
-            <News />
             <About />
+            <News />
             <Footer />
         </div>
     )

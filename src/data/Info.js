@@ -19,7 +19,8 @@ export let news_en = [
 ]
 
 // long descrption will appear in the about section
-export let long_descroption = "I am a e"
+export let long_descroption = `I am Wensi (Vince), a 3rd year undergraduate CS & Applied Math student at UCLA. 
+    My primary research interests are Embodied-AI, Multi-agent System, Congnitive Robotics, and Reinforcement Learning` 
 
 // skills will appears as tags in the about section
 export let tech_stack = [

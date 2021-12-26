@@ -6,7 +6,7 @@ export default function About() {
     return (
         <div className='About'>
             <h1>About me</h1>
-            <div>{long_descroption}</div>
+            <div className='AboutParagraph'>{long_descroption}</div>
             <h2>Some of my tech stack:</h2>
             <div className='TechStack'>{ tech_stack.map(item => <p>{item}</p>) }</div>
         </div>
