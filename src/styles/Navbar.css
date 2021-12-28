@@ -18,7 +18,7 @@
 }
 
 .NavItem a{
-    color: black;
+    color: #000;
     text-decoration: none;
     padding: 0 0.5rem;
     font-weight: 800;
@@ -27,13 +27,13 @@
 .NavItem ul{
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0 1vw;
     display: flex;
 }
 
 .NavItem a:hover,
 .NavItem a:active{
-    color: #fa923f;
+    color: #fa7e19;
 }
 
 .Spacer{
@@ -88,30 +88,29 @@
     justify-content: center;
 }
 
-.SideBar li {
-    margin: 0.5rem 0;
-}
-
 .SideBar a {
-    color: blue;
+    color: black;
     text-decoration: none;
     font-size: 1.2rem;
+    margin: 0.5rem 0;
 }
 
 .SideBar a:hover,
 .SideBar a:active{
-    color: #fa923f;
+    color: #fa7e19;
 }
 
 .MenuBtn{
     position: fixed;
     left: 0;
     top: 0;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 35px;
     border-width: 0;
     z-index: 10;
-    background: rgba(0,0,0,0)
+    background: rgba(0,0,0,0);
+    opacity: 0.5;
+    transition: ease-out 0.2s;
 }
 
 .MenuBtn img {
@@ -119,9 +118,8 @@
     height: 100%;
 }
 
-.MenuBtn:hover,
-.MenuBtn:focus{
-    background: rgba(0,0,0,0.3);
+.MenuBtn:hover{
+    opacity: 1;
     outline: 0;
     box-shadow: none!important;
 }

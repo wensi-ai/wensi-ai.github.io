@@ -1,17 +1,17 @@
 import React from 'react'
-import { contacts } from "../data/Info"
+import { name, email, phone, contacts } from "../data/Info"
 import "../styles/Home.css"
 
 export default function Footer(props) {
     return (
         <div className="Footer">
-            <p>Copyright Wensi Ai @ 2022</p>
-            <strong>va0817@ucla.edu</strong>
-            <strong>+14244027280</strong>
+            <p>Copyright {name} @ 2022</p>
+            <strong>{email}</strong>
+            <strong>{phone}</strong>
             <div className='ContactImg'>
                 {
                     contacts.map(function(dict){
-                        return <a href={dict.url}><img src={dict.img} alt={dict.name}/></a>
+                        return <a href={dict.url} key={dict.name}><img src={dict.img} alt={dict.name}/></a>
                     }) 
                 }
             </div>

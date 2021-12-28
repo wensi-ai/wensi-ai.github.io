@@ -1,14 +1,15 @@
 // Personal Information to be displayed in the index page
 
-export let name = "Wensi Ai"
+export let name = "Vince Ai"
 export let email = "va0817@ucla.edu"
+export let phone = "+14244027280"
 
 // short decription will appear immediately under name
 export let short_description = "CS & Applied Math @ UCLA"
 
 // long descrption will appear in the about section
 export let long_descroption = `
-    I am Wensi (Vince), a 3rd year undergraduate CS & Applied Math student at UCLA. 
+    I am Vince (Wensi) Ai, a 3rd year undergraduate CS & Applied Math student at UCLA. 
     I am currently working as a research assistant at the Center for Vision, Cognition, Learning, and Autonomy (VCLA).
     My primary research interests includes Embodied-AI, Multi-agent System, Cognitive Robotics, and Reinforcement Learning. 
     Besides academics, I also love to do all kinds of outdoor activities, including running, hiking, cycling, etc. 
