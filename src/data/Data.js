@@ -37,19 +37,7 @@ export let proj_en = [
             {"[Website]": "https://vince-ai.github.io"},
             {"[Github]": "https://github.com/Vince-Ai/vince-ai.github.io"}
         ]
-    },
-    {
-        "Name":  "Something6"
-        ,"Img": "/404.png"
-        ,"Info": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image gallery"
-        ,"Links": [{"[Github]": "someurl"}]
-    },
-    {
-        "Name":  "Something1"
-        ,"Img": "/404.png"
-        ,"Info": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image gallery"
-        ,"Links": [{"[Github]": "someurl"}]
-    },
+    }
 ]
 
 
@@ -58,45 +46,21 @@ export let proj_en = [
 export let research_en = [
     {
         "Name":  "GenMotion"
-        ,"Img": "/404.png"
+        ,"Img": "/genmotion.png"
         ,"Info": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image galleryToday, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image galler"
         ,"Links": [
-            {"[Github]": "http://github.com/vince-ai/CatchingFire"},
-            {"[Paper]": "http://github.com/vince-ai/CatchingFire/Files"}
+            {"[Paper]": "https://arxiv.org/abs/2112.06060"},
+            {"[Github]": "http://github.com/yizhouzhao/genmotion"}
+            
         ]
     },
     {
-        "Name":  "eXchange"
-        ,"Img": "/404.png"
+        "Name":  "Vertical-Horizontal Structured Attention for Generating Music with Chords"
+        ,"Img": "/vh-vae.png"
         ,"Info": "Textbook, notes, and tutoring sharing platform"
         ,"Links": [
-            {"[Website]": "https://csmt-westwood.github.io/eXchange/"},
-            {"[Github]": "https://github.com/CSMT-Westwood/eXchange"},
-            {"[Demo]": "https://www.youtube.com/watch?v=6gpFYKKUGSk"},
+            {"[Paper]": "https://arxiv.org/abs/2011.09078"},
+            {"[Github]": "https://github.com/yizhouzhao/MusicVAE"},
         ]
-    },
-    {
-        "Name":  "CatanML"
-        ,"Img": "/404.png"
-        ,"Info": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image gallery"
-        ,"Links": [{"[Github]": "https://github.com/Vince-Ai/CatanML"}]
-    },
-    {
-        "Name":  "Something5"
-        ,"Img": "/404.png"
-        ,"Info": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image gallery"
-        ,"Links": [{"[Github]": "someurl"}]
-    },
-    {
-        "Name":  "Something6"
-        ,"Img": "/404.png"
-        ,"Info": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image gallery"
-        ,"Links": [{"[Github]": "someurl"}]
-    },
-    {
-        "Name":  "Something1"
-        ,"Img": "/404.png"
-        ,"Info": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image gallery"
-        ,"Links": [{"[Github]": "someurl"}]
-    },
+    }
 ]
