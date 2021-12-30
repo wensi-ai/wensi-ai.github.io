@@ -7,9 +7,9 @@ import "../../styles/research.css"
 export default function Research() {
     return (
         <div>
-            <title>Publications</title>
+            <title>Research</title>
             <Navbar />
-            <h1 className='ResearchTitle'>Publications</h1>
+            <h1 className='ResearchTitle'>Research</h1>
             <div className='ResearchWrapper'>
                 {
                     research_en.map(function(props){

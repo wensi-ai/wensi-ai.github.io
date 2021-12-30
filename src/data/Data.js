@@ -9,8 +9,9 @@ export let proj_en = [
         ,"Img": "/CatchingFire.jpg"
         ,"Info": "Virtual Reality Game for School Hazard Education"
         ,"Links": [
-            {"[Github]": "http://github.com/vince-ai/CatchingFire"},
-            {"[Paper]": "http://github.com/vince-ai/CatchingFire/Files"}
+            {"Github": "http://github.com/vince-ai/CatchingFire"},
+            {"Paper": "http://github.com/vince-ai/CatchingFire/Files"},
+            {"Poster": "/CatchingFire.jpg"},
         ]
     },
     {
@@ -18,24 +19,25 @@ export let proj_en = [
         ,"Img": "/eXchange.png"
         ,"Info": "Textbook, notes, and tutoring sharing platform"
         ,"Links": [
-            {"[Website]": "https://csmt-westwood.github.io/eXchange/"},
-            {"[Github]": "https://github.com/CSMT-Westwood/eXchange"},
-            {"[Demo]": "https://www.youtube.com/watch?v=6gpFYKKUGSk"},
+            {"Github": "https://github.com/CSMT-Westwood/eXchange"},
+            {"Website": "https://csmt-westwood.github.io/eXchange/"},
+            {"Demo": "https://www.youtube.com/watch?v=6gpFYKKUGSk"},
         ]
     },
     {
         "Name":  "Catan ML"
         ,"Img": "/404.png"
         ,"Info": "Resource Island for Machine Learning"
-        ,"Links": [{"[Github]": "https://github.com/Vince-Ai/CatanML"}]
+        ,"Links": [{"Github": "https://github.com/Vince-Ai/CatanML"}]
     },
     {
         "Name":  "Profolio"
-        ,"Img": "/intro.png"
+        ,"Img": "/profolio.png"
         ,"Info": "Personal Website targeted for templating"
         ,"Links": [
-            {"[Website]": "https://vince-ai.github.io"},
-            {"[Github]": "https://github.com/Vince-Ai/vince-ai.github.io"}
+            {"Github": "https://github.com/Vince-Ai/vince-ai.github.io"},
+            {"Website": "https://vince-ai.github.io"}
+            
         ]
     }
 ]
@@ -45,22 +47,22 @@ export let proj_en = [
 
 export let research_en = [
     {
-        "Name":  "GenMotion"
+        "Name":  "GenMotion: Data-driven Motion Generators for Real-time Animation Synthesis"
         ,"Img": "/genmotion.png"
-        ,"Info": "Today, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image galleryToday, I'm going to show you how to use just TWO CSS grid properties to create a fully responsive image galler"
+        ,"Info": "Yizhou Zhao, Wensi Ai, Liang Qiu, Pan Lu, Feng Shi, Tian Han, Song-Chun Zhu"
         ,"Links": [
-            {"[Paper]": "https://arxiv.org/abs/2112.06060"},
-            {"[Github]": "http://github.com/yizhouzhao/genmotion"}
+            {"Paper": "https://arxiv.org/abs/2112.06060"},
+            {"Github": "http://github.com/yizhouzhao/genmotion"}
             
         ]
     },
     {
         "Name":  "Vertical-Horizontal Structured Attention for Generating Music with Chords"
-        ,"Img": "/vh-vae.png"
-        ,"Info": "Textbook, notes, and tutoring sharing platform"
+        ,"Img": "/VH-VAE.png"
+        ,"Info": "Yizhou Zhao, Liang Qiu, Wensi Ai, Feng Shi, Song-Chun Zhu"
         ,"Links": [
-            {"[Paper]": "https://arxiv.org/abs/2011.09078"},
-            {"[Github]": "https://github.com/yizhouzhao/MusicVAE"},
+            {"Paper": "https://arxiv.org/abs/2011.09078"},
+            {"Github": "https://github.com/yizhouzhao/MusicVAE"},
         ]
     }
 ]
