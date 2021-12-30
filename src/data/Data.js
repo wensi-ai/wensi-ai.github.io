@@ -1,6 +1,34 @@
 // data to be displayed in the projects and research section
 
 
+// Research items 
+
+export let research_en = [
+    {
+        "Name":  "GenMotion: Data-driven Motion Generators for Real-time Animation Synthesis"
+        ,"Img": "/genmotion.png"
+        ,"Info": "Yizhou Zhao, Wensi Ai, Liang Qiu, Pan Lu, Feng Shi, Tian Han, Song-Chun Zhu"
+        ,"Links": [
+            {"Paper": "https://arxiv.org/abs/2112.06060"},
+            {"Github": "http://github.com/yizhouzhao/genmotion"},
+            {"Docs": "https://genmotion.readthedocs.io/en/main/"},
+            {"Pypi": "https://pypi.org/project/GenMotion/"}
+            
+        ]
+    },
+    {
+        "Name":  "Vertical-Horizontal Structured Attention for Generating Music with Chords"
+        ,"Img": "/VH-VAE.png"
+        ,"Info": "Yizhou Zhao, Liang Qiu, Wensi Ai, Feng Shi, Song-Chun Zhu"
+        ,"Links": [
+            {"Paper": "https://arxiv.org/abs/2011.09078"},
+            {"Github": "https://github.com/yizhouzhao/MusicVAE"},
+        ]
+    }
+]
+
+
+
 // project items
 
 export let proj_en = [
@@ -38,31 +66,6 @@ export let proj_en = [
             {"Github": "https://github.com/Vince-Ai/vince-ai.github.io"},
             {"Website": "https://vince-ai.github.io"}
             
-        ]
-    }
-]
-
-
-// Research items 
-
-export let research_en = [
-    {
-        "Name":  "GenMotion: Data-driven Motion Generators for Real-time Animation Synthesis"
-        ,"Img": "/genmotion.png"
-        ,"Info": "Yizhou Zhao, Wensi Ai, Liang Qiu, Pan Lu, Feng Shi, Tian Han, Song-Chun Zhu"
-        ,"Links": [
-            {"Paper": "https://arxiv.org/abs/2112.06060"},
-            {"Github": "http://github.com/yizhouzhao/genmotion"}
-            
-        ]
-    },
-    {
-        "Name":  "Vertical-Horizontal Structured Attention for Generating Music with Chords"
-        ,"Img": "/VH-VAE.png"
-        ,"Info": "Yizhou Zhao, Liang Qiu, Wensi Ai, Feng Shi, Song-Chun Zhu"
-        ,"Links": [
-            {"Paper": "https://arxiv.org/abs/2011.09078"},
-            {"Github": "https://github.com/yizhouzhao/MusicVAE"},
         ]
     }
 ]

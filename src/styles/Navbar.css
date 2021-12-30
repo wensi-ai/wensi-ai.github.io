@@ -12,7 +12,7 @@
     height: 6vh;
     display: flex;
     align-items: center;
-    padding: 0, 1rem;
+    padding: 0 1rem;
     background-color: rgba(255, 255, 255, 0);
     backdrop-filter: blur(1rem);
 }
@@ -20,8 +20,9 @@
 .NavItem a{
     color: #000;
     text-decoration: none;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
     font-weight: 800;
+    font-size: 1.2rem;
 }
 
 .NavItem ul{
@@ -48,18 +49,19 @@
     height: 100%;
     width: 100%;
     background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(0.5rem);
+    border-style: outset;
+    border: none;
     z-index: 5;
-
+    pointer-events: none;
     opacity: 0;
     transition: opacity 0.3s ease-out;
-        outline: 0;
     box-shadow: none!important;
 }
 
 .BackDrop.open{
     opacity: 1;
-    outline: 0;
-    box-shadow: none!important;
+    pointer-events: auto;
 }
 
 .SideBar{
@@ -69,7 +71,7 @@
     width: 50vw;
     height: 100%;
     background: #fff;
-    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.5);
     z-index: 8;
 
     transform: translateX(-101%);
@@ -109,8 +111,6 @@
     border-width: 0;
     z-index: 10;
     background: rgba(0,0,0,0);
-    opacity: 0.5;
-    transition: ease-out 0.2s;
 }
 
 .MenuBtn img {
@@ -119,7 +119,7 @@
 }
 
 .MenuBtn:hover{
-    opacity: 1;
+    filter: invert(71%) sepia(48%) saturate(2522%) hue-rotate(331deg) brightness(101%) contrast(96%);
     outline: 0;
     box-shadow: none!important;
 }
