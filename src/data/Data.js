@@ -38,7 +38,7 @@ export let proj_en = [
         ,"Info": "Virtual Reality Game for School Hazard Education"
         ,"Links": [
             {"Github": "http://github.com/vince-ai/CatchingFire"},
-            {"Paper": "http://github.com/vince-ai/CatchingFire/Files"},
+            {"Paper": "https://github.com/Vince-Ai/CatchingFire/tree/master/Files/Paper.pdf"},
             {"Poster": "/CatchingFire.jpg"},
         ]
     },
