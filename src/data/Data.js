@@ -10,10 +10,19 @@ export let research_en = [
         ,"Info": "Yizhou Zhao, Wensi Ai, Liang Qiu, Pan Lu, Feng Shi, Tian Han, Song-Chun Zhu"
         ,"Links": [
             {"Paper": "https://arxiv.org/abs/2112.06060"},
-            {"Github": "http://github.com/yizhouzhao/genmotion"},
+            {"Github": "http://github.com/realvcla/genmotion"},
             {"Docs": "https://genmotion.readthedocs.io/en/main/"},
             {"Pypi": "https://pypi.org/project/GenMotion/"}
             
+        ]
+    },
+    {
+        "Name":  "Triangular Character Animation Sampling with Motion, Emotion, and Relation"
+        ,"Img": "/animation.png"
+        ,"Info": "Yizhou Zhao, Liang Qiu, Wensi Ai, Pan Lu, Song-Chun Zhu"
+        ,"Links": [
+            {"Paper": "https://arxiv.org/abs/2203.04930"},
+            {"Github": "https://github.com/yizhouzhao/EQTest"},
         ]
     },
     {
