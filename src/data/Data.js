@@ -5,6 +5,16 @@
 
 export let research_en = [
     {
+        "Name":  "VRKitchen2.0-IndoorKit: A Tutorial for Augmented Indoor Scene Building in Omniverse"
+        ,"Img": "/IndoorKit.png"
+        ,"Info": "Yizhou Zhao*, Steven Gong*, Xiaofeng Gao, Wensi Ai, Song-Chun Zhu"
+        ,"Links": [
+            {"Paper": "https://arxiv.org/abs/2206.11887"},
+            {"Github": "https://github.com/realvcla/VRKitchen2.0-Tutorial"},
+            {"Docs": "https://vrkitchen20-tutorial.readthedocs.io/en/latest/"},
+        ]
+    },
+    {
         "Name":  "GenMotion: Data-driven Motion Generators for Real-time Animation Synthesis"
         ,"Img": "/genmotion.png"
         ,"Info": "Yizhou Zhao, Wensi Ai, Liang Qiu, Pan Lu, Feng Shi, Tian Han, Song-Chun Zhu"
