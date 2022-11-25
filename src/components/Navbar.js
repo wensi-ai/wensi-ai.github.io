@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import '../styles/Navbar.css'
 import { SideBar } from "./MenuBar"
 
-const enDict = ["Home", "Research", "Projects", "Resume"];
+const enDict = ["Home", "Research", "Projects", "CV"];
 
 export default function Navbar(props) {
     let Dict = enDict;

@@ -52,6 +52,25 @@ export let research_en = [
 
 export let proj_en = [
     {
+        "Name":  "Tensor Completion"
+        ,"Img": "/tc.jpg"
+        ,"Info": "Low-rank tensor complesion and applications"
+        ,"Links": [
+            {"Github": "https://github.com/ZT220501/Math-270-Tensor-Completion"},
+            {"Slides": "https://docs.google.com/presentation/d/1VjVqG-Ubh85GE4Z8OmTygNXt3dSGdwJ8-RzJ5DClCP0/edit#slide=id.gc6f90357f_0_0"}
+            
+        ]
+    },
+    {
+        "Name":  "Googolplex"
+        ,"Img": "/googolplex.png"
+        ,"Info": "User-friendly AI text generator with GCP"
+        ,"Links": [
+            {"Github": "https://github.com/Dadaism6/UCLA-CS130-Googolplex"},
+            {"Website": "https://chendaduan.com/projects/googolplex_project"},
+        ]
+    },
+    {
         "Name":  "Catching Fire"
         ,"Img": "/CatchingFire.jpg"
         ,"Info": "Virtual Reality Game for School Hazard Education"
@@ -72,19 +91,21 @@ export let proj_en = [
         ]
     },
     {
-        "Name":  "Catan ML"
-        ,"Img": "/404.png"
-        ,"Info": "Resource Island for Machine Learning"
-        ,"Links": [{"Github": "https://github.com/Vince-Ai/CatanML"}]
+        "Name":  "Colorizer"
+        ,"Img": "/Colorizer.png"
+        ,"Info": "Video colorization with deep learning methods"
+        ,"Links": [
+            {"Github": "https://github.com/Vince-Ai/Colorizer"},
+            {"Website": "https://ucladeepvision.github.io/CS188-Projects-2022Winter/2022/01/28/team12-image-video-colorization.html"}
+        ]
     },
     {
-        "Name":  "Profolio"
-        ,"Img": "/profolio.png"
-        ,"Info": "Personal Website targeted for templating"
+        "Name":  "SAIRS"
+        ,"Img": "/sairs.png"
+        ,"Info": "Inspecting COVID-19 using SAIRS Model with immunization"
         ,"Links": [
-            {"Github": "https://github.com/Vince-Ai/vince-ai.github.io"},
-            {"Website": "https://vince-ai.github.io"}
-            
+            {"Paper": "https://github.com/Vince-Ai/Colorizer"},
+            {"Website": "https://ucladeepvision.github.io/CS188-Projects-2022Winter/2022/01/28/team12-image-video-colorization.html"}
         ]
     }
 ]
