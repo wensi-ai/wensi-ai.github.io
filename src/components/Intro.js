@@ -1,12 +1,25 @@
 import React from 'react'
-import { name, short_description } from '../data/Info';
+import { name, long_descroption, contacts, tech_stack } from '../data/Info'
 import "../styles/Home.css"
 
-export default function Intro(props) {
+export default function About() {
     return (
-        <div className="Intro">
-            <h1>Hi, I'm {name}</h1>
-            <div>{short_description}</div>
+        <div className='Intro'>
+            <div className="IntroWrapper">
+                <main className="About">
+                    <h1>Hi, I'm {name}</h1>
+                    <div className='IntroParagraph'>{long_descroption}</div>
+                    <div className='ContactImg'>
+                        {
+                            contacts.map(function(dict){
+                                return <a href={dict.url} key={dict.name}><img src={dict.img} alt={dict.name}/></a>
+                            }) 
+                        }
+                    </div>
+                </main>
+                <img src='/selfie.jpg' alt='selfie' />
+            </div>
+            <br />
         </div>
-    );
+    )
 }

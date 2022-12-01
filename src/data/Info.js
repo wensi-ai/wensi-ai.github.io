@@ -1,13 +1,10 @@
 // Personal Information to be displayed in the index page
 
-export let name = "Vince Ai"
-export let email = "va0817@ucla.edu"
-export let phone = "+14244027280"
+export let name = "Wensi Ai"
+export let email = "va0817 [at] g [dot] ucla [dot] edu"
+export let phone = "+1 424-402-7280"
 
-// short decription will appear immediately under name
-export let short_description = "CS & Applied Math @ UCLA"
-
-// long descrption will appear in the about section
+// long descrption will appear under name
 export let long_descroption = `
     I am Vince (Wensi) Ai, a 3rd year undergraduate CS & Applied Math student at UCLA. 
     I am currently working as a research assistant at the Center for Vision, Cognition, Learning, and Autonomy (VCLA).
