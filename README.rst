@@ -1,7 +1,7 @@
 Personal Website
 ================
 
-This is the repo for Vince Ai's Profolio page built with React.JS and Gatsby.JS. Check out at `vince-ai.github.io <https://vince-ai.github.io>`_
+This is the repo for Wensi Ai's Profolio page built with React.JS and Gatsby.JS. Check out at `wensi-ai.github.io <https://wensi-ai.github.io>`_
 
 
 
@@ -14,7 +14,7 @@ This repo is built such that it can be used as a template for building profolio 
 
     .. code:: bash
 
-        git clone https://github.com/Vince-Ai/vince-ai.github.io.git profolio
+        git clone https://github.com/Wensi-Ai/wensi-ai.github.io.git profolio
         cd profolio
         npm install
 
