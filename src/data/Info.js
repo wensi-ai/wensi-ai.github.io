@@ -2,21 +2,9 @@
 
 export let name = "Wensi Ai"
 export let email = "va0817 [at] g [dot] ucla [dot] edu"
-export let phone = "+1 424-402-7280"
-
-// long descrption will appear under name
-export let long_descroption = `
-    I am Vince (Wensi) Ai, a 3rd year undergraduate CS & Applied Math student at UCLA. 
-    I am currently working as a research assistant at the Center for Vision, Cognition, Learning, and Autonomy (VCLA).
-    My primary research interests includes Embodied-AI, Multi-agent System, Cognitive Robotics, and Reinforcement Learning. 
-    Besides academics, I also love to do all kinds of outdoor activities, including running, hiking, cycling, etc. 
-    I can also play the violin!
-`
 
 // skills will appears as tags in the about section
-export let tech_stack = [
-    "Python", "PyTorch", "Sklearn", "Apach Airflow", "Javascript", "React.JS", "C/C++", "Linux", "Git"
-]
+export let research_interest = "Embodied AI, Human-Centered AI, Character Animation, and Human-Robot Interaction"
 
 // news will appear in the news section
 export let news_en = [
@@ -51,8 +39,13 @@ export let contacts = [
     },
     {
         "name": "Github"
-        ,"url": "https://github.com/Vince-Ai"
+        ,"url": "https://github.com/Wensi-Ai"
         ,"img": "/github.png"
+    },
+    {
+        "name": "Twitter"
+        ,"url": "https://www.twitter.com/vince_ai"
+        ,"img": "/Twitter.png"
     },
     {
         "name": "Instagram"

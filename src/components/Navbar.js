@@ -18,7 +18,7 @@ export default function Navbar(props) {
                         <Link to="/">{Dict[0]}</Link>
                         <Link to="/research">{Dict[1]}</Link>
                         <Link to="/projects">{Dict[2]}</Link>
-                        <a href="/Wensi_Ai_Resume.pdf">{Dict[3]}</a>
+                        <a href="/Wensi_Ai_CV.pdf">{Dict[3]}</a>
                     </ul>
                 </div>
             </nav>

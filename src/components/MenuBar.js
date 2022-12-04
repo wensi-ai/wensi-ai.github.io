@@ -26,7 +26,7 @@ export function SideBar(props) {
                     <Link to="/" onClick={() => setOpen(!isOpen)}>{props.Dict[0]}</Link>
                     <Link to="/research" onClick={() => setOpen(!isOpen)}>{props.Dict[1]}</Link>
                     <Link to="/projects" onClick={() => setOpen(!isOpen)}>{props.Dict[2]}</Link>
-                    <a href="/Wensi_Ai_Resume.pdf" onClick={() => setOpen(!isOpen)}>{props.Dict[3]}</a>
+                    <a href="/Wensi_Ai_CV.pdf" onClick={() => setOpen(!isOpen)}>{props.Dict[3]}</a>
                 </ul>
             </nav>
         </div>

@@ -12,38 +12,10 @@
   margin-top: 2vh;
 }
 
-.Intro img {
-  width: 300px;
-  margin: 1vw;
-}
-
-.About {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100vw;
-}
-
-.Intro h1 {
-  position: relative;
-  top: 10vh;
-  left: 0;
-  height: 10vh;
-  display: block;
-  font-size: calc(25px + 2vw - 0.5rem);
-  color: black;
-}
-
-.IntroParagraph {
-  margin-top: 10vh;
-  left: 0;
-  width: 50vw;
-  font-size: calc(5px + 0.5vw + 0.5rem);
-  line-height: 2;
-}
-
 .ContactImg {
   display: flex;
-  left: 0;
+  margin-left: -1vw;
+  margin-top: 13vh;
   justify-content: flex-start;
   align-items: center;
   width: 100%;
@@ -62,12 +34,41 @@
     brightness(101%) contrast(96%);
 }
 
+.Intro h1 {
+  position: relative;
+  top: 10vh;
+  left: 0;
+  height: 10vh;
+  display: block;
+  font-size: calc(25px + 2vw - 0.5rem);
+  color: black;
+}
+
+.About {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.AboutParagraph {
+  margin-top: 7vh;
+  left: 0;
+  width: 50vw;
+  font-size: calc(5px + 0.5vw + 0.5rem);
+  line-height: 2;
+  text-align: justify;
+}
+
+.Selfie {
+  width: 300px;
+  margin: 1vw 1vw 1vw 5vw;
+}
+
 /* News section */
 .News {
-  position: relative;
   display: block;
-  top: 0;
-  left: 0;
+  margin-top: 10vh;
+  margin-left: 0;
   height: 50vh;
   width: 100%;
   background-color: rgb(255, 255, 255, 0.9);
@@ -110,23 +111,25 @@
 .Footer {
   position: relative;
   display: block;
-  bottom: 0;
-  left: 0;
+  margin-bottom: 0;
+  margin-left: 0;
   width: 100%;
   height: 6vh;
   background-color: rgba(255, 255, 255);
 }
 
 .Footer strong {
-  position: relative;
-  display: block;
-  top: 0;
+  position: absolute;
+  display: flex;
+  bottom: 0;
   left: 0;
-  height: 1.5vh;
+  height: 6vh;
   font-size: 1.5vh;
   font-weight: 400;
-  padding: 0.5vh 2vw;
+  margin: 0 2vw;
   justify-content: center;
+  align-items: center;
+
 }
 
 .Footer p {
