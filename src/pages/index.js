@@ -9,11 +9,13 @@ export default function Home(prpos) {
     return (
         <div className="indexWrapper">
             <title>Wensi Ai</title>
-            <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=3J6uOG7w6BbV0bcsIOYUlnhVQCIg3x7DeTN92vMMjY4&cl=ffffff&w=a"></script>
             <Navbar />
             <Intro />
             <News />
             <Footer />
+            <div className="clustrmap">
+                <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=3J6uOG7w6BbV0bcsIOYUlnhVQCIg3x7DeTN92vMMjY4&cl=ffffff&w=a"></script>
+            </div>
         </div>
     )
 }
