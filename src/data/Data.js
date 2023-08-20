@@ -7,10 +7,22 @@ export let research_en = [
     {
         "Name": "ARNOLD: A Benchmark for Language-Grounded Task Learning with Continuous States in Realistic Scenes"
         ,"Img": "/ARNOLD.png"
-        ,"Authors": "Ran Gong*, Yizhou Zhao*, Xiaofeng Gao, Jiangyong Huang, Qingyang Wu, Wensi Ai, Baoxiong Jia, Zhou Ziheng, Song-Chun Zhu, Siyuan Huang"
+        ,"Authors": "Ran Gong✶, Jiangyong Huang✶, Yizhou Zhao, Haoran Geng, Xiaofeng Gao, Qingyang Wu, Wensi Ai, Ziheng Zhou, Demetri Terzopoulos, Song-Chun Zhu, Baoxiong Jia, Siyuan Huang"
         ,"Info": "ICCV 2023"
         ,"Links": [
-            {"Paper": "https://openreview.net/forum?id=tt53PdNhwwf"},
+            {"Paper": "https://arxiv.org/abs/2304.04321"},
+            {"Github": "https://github.com/arnold-benchmark/arnold"},
+            {"Website": "https://arnold-benchmark.github.io"},
+        ]
+    },
+    {
+        "Name":  "Quantifying the Effect of Visual Impairments on Daily Activities in Virtual, Interactive Environments"
+        ,"Img": "/vivr.png"
+        ,"Authors": "Wensi Ai, Sharon Lee, Li Fei-Fei, Jiajun Wu, Ruohan Zhang"
+        ,"Info": "Cog Sci 2023"
+        ,"Links": [
+            {"Paper": "https://escholarship.org/uc/item/2sj3r0n2"},
+            {"Website": "https://sites.google.com/view/vi-vr"},
         ]
     },
     {
@@ -21,16 +33,6 @@ export let research_en = [
         ,"Links": [
             {"Paper": "https://arxiv.org/abs/2203.04930"},
             {"Github": "https://github.com/yizhouzhao/EQTest"},
-        ]
-    },
-    {
-        "Name":  "Vertical-Horizontal Structured Attention for Generating Music with Chords"
-        ,"Img": "/VH-VAE.png"
-        ,"Authors": "Yizhou Zhao, Liang Qiu, Wensi Ai, Feng Shi, Song-Chun Zhu"
-        ,"Info": "Arxiv Preprint"
-        ,"Links": [
-            {"Paper": "https://arxiv.org/abs/2011.09078"},
-            {"Github": "https://github.com/yizhouzhao/MusicVAE"},
         ]
     }
 ]
@@ -54,9 +56,9 @@ export let proj_en = [
         ,"Img": "/IndoorKit.png"
         ,"Info": "Augmented Indoor Scene Building in Omniverse"
         ,"Links": [
-            {"Paper": "https://arxiv.org/abs/2206.11887"},
             {"Github": "https://github.com/yizhouzhao/VRKitchen2.0-IndoorKit"},
-            {"Docs": "https://vrkitchen20-tutorial.readthedocs.io/en/latest/"},
+            {"Website": "https://vrkitchen20-tutorial.readthedocs.io/en/latest/"},
+            {"Paper": "https://arxiv.org/abs/2206.11887"},
         ]
     },
     {
@@ -64,11 +66,9 @@ export let proj_en = [
         ,"Img": "/genmotion.png"
         ,"Info": "Data-driven Motion Generators for Real-time Animation Synthesis"
         ,"Links": [
-            {"Paper": "https://arxiv.org/abs/2112.06060"},
             {"Github": "https://github.com/yizhouzhao/GenMotion"},
-            {"Docs": "https://genmotion.readthedocs.io/en/main/"},
-            {"Pypi": "https://pypi.org/project/GenMotion/"}
-            
+            {"Website": "https://genmotion.readthedocs.io/en/main/"},            
+            {"Paper": "https://arxiv.org/abs/2112.06060"},
         ]
     },
     {
