@@ -1,10 +1,10 @@
 // Personal Information to be displayed in the index page
 
-export let name = "Wensi Ai"
-export let email = "va0817 [at] g [dot] ucla [dot] edu"
+export let name = "Wensi (Vince) Ai"
+export let email = "wsai [at] stanford [dot] edu"
 
 // skills will appears as tags in the about section
-export let research_interest = "Embodied AI, Human-Centered AI, Character Animation, and Human-Robot Interaction"
+export let research_interest = "human motion analyses in realistic and interactive environments and their applications in robotics and cognitive science"
 
 // news will appear in the news section
 export let news_en = [
@@ -21,10 +21,6 @@ export let news_en = [
         ,"content": "I will be joining Metabit Trading as a SWE intern this summer to work on optimizing daily data generation workflow using Apach Airflow"
     },
     {
-        "date": "Mar. 2021"
-        ,"content": "Our machine learning model for NEXT Truck employees selection reaches 97.8% accuracy in Kaggle prediction contest!"
-    },
-    {
         "date": "Nov. 2019"
         ,"content": "I will be joining VCLA@UCLA as a research assistant to work on projects related to multi-agent systems!"
     },
@@ -34,17 +30,17 @@ export let news_en = [
 export let contacts = [
     {
         "name": "Linkedin"
-        ,"url": "https://www.linkedin.com/in/vince-ai"
+        ,"url": "https://www.linkedin.com/in/wensi-ai"
         ,"img": "/linkedin.png"
     },
     {
         "name": "Github"
-        ,"url": "https://github.com/Wensi-Ai"
+        ,"url": "https://github.com/wensi-ai"
         ,"img": "/github.png"
     },
     {
         "name": "Twitter"
-        ,"url": "https://www.twitter.com/vince_ai"
+        ,"url": "https://www.twitter.com/wensi_ai"
         ,"img": "/Twitter.png"
     },
     {

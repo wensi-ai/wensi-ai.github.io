@@ -28,6 +28,7 @@ export function ResearchItem (props) {
             <img src={props.props.Img} alt=""/>
             <div className="ResearchWordsWrapper">
                 <strong className="ResearchName">{props.props.Name}</strong>
+                <p className="ResearchAuthors">{props.props.Authors}</p>
                 <p className="ResearchInfo">{props.props.Info}</p>
                 <div className="ResearchLinks">
                     {props.props.Links.map(link =>

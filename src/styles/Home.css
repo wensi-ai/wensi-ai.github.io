@@ -59,6 +59,16 @@
   text-align: justify;
 }
 
+.AboutParagraph a:link, .AboutParagraph a:visited {
+  text-decoration: None;
+  color: #8C1515;
+}
+
+.AboutParagraph a:hover {
+  text-decoration: None;
+  color: #fa7e19;
+}
+
 .Selfie {
   width: 300px;
   margin: 1vw 1vw 1vw 5vw;

@@ -3,7 +3,6 @@
     height: 100%;
     display: grid;
     grid-auto-rows: 0.8fr 1.2fr;
-    background: yellow;
 }
 .ItemWrapper img{
     position: relative;
@@ -18,13 +17,12 @@
     width: auto;
     display: grid;
     grid-auto-rows: 0.3fr 1fr 0.2fr;
-    background: blue;
 }
 
 .Name{
     position: relative;
     font-size: calc(15px + 0.5rem);
-    background: orange;
+    background: #fa7e19;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,14 +30,12 @@
 
 .Abstract{
     position: relative;
-    background: cyan;
     font-size: calc(10px + 0.5rem);
     padding: 0 1rem;
 }
 
 .Links{
     position: relative;
-    background: purple; 
     display: flex;
     justify-content: center;
     align-items: center;
