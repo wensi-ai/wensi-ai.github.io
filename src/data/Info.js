@@ -4,17 +4,18 @@ export let name = "Wensi (Vince) Ai"
 export let email = "wsai [at] stanford [dot] edu"
 
 // skills will appears as tags in the about section
-export let research_interest = "human motion analyses in realistic and interactive environments and their applications in robotics and cognitive science"
+export let research_topic = "robotics and computer graphics"
+export let research_interest = "building realistic and interactive environments for robot simulation and character animation"
 
 // news will appear in the news section
 export let news_en = [
     {
-        "date": "Jun. 2022"
-        ,"content": "I will be joining Stanford Vision and Learning Lab (SVL) as a research assistant to work on projects related to Embodied AI."
+        "date": "Sep. 2023"
+        ,"content": "I have started pursuing my master degree in CS at Stanford University."
     },
     {
-        "date": "Dec. 2021"
-        ,"content": "GenMotion introduces its first major release 0.0.4. It now includes more generation models, direct Python rendering support, and better formatted tutorial notebooks."
+        "date": "Jun. 2022"
+        ,"content": "I will be joining Stanford Vision and Learning Lab (SVL) as a research assistant to work on projects related to Embodied AI."
     },
     {
         "date": "Jun. 2021"

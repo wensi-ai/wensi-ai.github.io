@@ -5,9 +5,19 @@
 
 export let research_en = [
     {
+        "Name": "NOIR: Neural Signal Operated Intelligent Robots for Everyday Activities"
+        ,"Img": "/NOIR.png"
+        ,"Authors": "Ruohan Zhang*, Sharon Lee*, Minjune Hwang*, Ayano Hiranaka*, Chen Wang, Wensi Ai, Jin Jie Ryan Tan, Shreya Gupta, Yilun Hao, Gabrael Levine, Ruohan Gao, Anthony Norcia, Li Fei-Fei, Jiajun Wu"
+        ,"Info": "CoRL 2023"
+        ,"Links": [
+            {"Paper": "https://openreview.net/pdf?id=eyykI3UIHa"},
+            {"Website": "https://noir-corl.github.io/"},
+        ]
+    },
+    {
         "Name": "ARNOLD: A Benchmark for Language-Grounded Task Learning with Continuous States in Realistic Scenes"
         ,"Img": "/ARNOLD.png"
-        ,"Authors": "Ran Gong✶, Jiangyong Huang✶, Yizhou Zhao, Haoran Geng, Xiaofeng Gao, Qingyang Wu, Wensi Ai, Ziheng Zhou, Demetri Terzopoulos, Song-Chun Zhu, Baoxiong Jia, Siyuan Huang"
+        ,"Authors": "Ran Gong*, Jiangyong Huang*, Yizhou Zhao, Haoran Geng, Xiaofeng Gao, Qingyang Wu, Wensi Ai, Ziheng Zhou, Demetri Terzopoulos, Song-Chun Zhu, Baoxiong Jia, Siyuan Huang"
         ,"Info": "ICCV 2023"
         ,"Links": [
             {"Paper": "https://arxiv.org/abs/2304.04321"},
