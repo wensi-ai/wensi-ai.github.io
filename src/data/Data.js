@@ -10,7 +10,7 @@ export let research_en = [
         ,"Authors": "Ruohan Zhang*, Sharon Lee*, Minjune Hwang*, Ayano Hiranaka*, Chen Wang, Wensi Ai, Jin Jie Ryan Tan, Shreya Gupta, Yilun Hao, Gabrael Levine, Ruohan Gao, Anthony Norcia, Li Fei-Fei, Jiajun Wu"
         ,"Info": "CoRL 2023"
         ,"Links": [
-            {"Paper": "https://openreview.net/pdf?id=eyykI3UIHa"},
+            {"Paper": "https://arxiv.org/abs/2311.01454"},
             {"Website": "https://noir-corl.github.io/"},
         ]
     },
