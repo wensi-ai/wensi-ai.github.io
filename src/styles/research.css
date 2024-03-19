@@ -35,13 +35,13 @@
     box-shadow: 2px 2px 5px lightgrey;
 }
 .ResearchItemWrapper img{
-    height: 180px;
+    height: 190px;
     width: 300px;
     margin: 10px 10px;
 }
 
 .ResearchWordsWrapper {
-    height: 180px;
+    height: 190px;
     width: max(300px, 100% - 340px);
     display: grid;
     grid-template-rows: repeat(4, 1fr);

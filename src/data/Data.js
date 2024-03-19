@@ -21,7 +21,6 @@ export let research_en = [
         ,"Info": "ICCV 2023"
         ,"Links": [
             {"Paper": "https://arxiv.org/abs/2304.04321"},
-            {"Github": "https://github.com/arnold-benchmark/arnold"},
             {"Website": "https://arnold-benchmark.github.io"},
         ]
     },
@@ -29,22 +28,22 @@ export let research_en = [
         "Name":  "Quantifying the Effect of Visual Impairments on Daily Activities in Virtual, Interactive Environments"
         ,"Img": "/vivr.png"
         ,"Authors": "Wensi Ai, Sharon Lee, Li Fei-Fei, Jiajun Wu, Ruohan Zhang"
-        ,"Info": "Cog Sci 2023"
+        ,"Info": "CogSci 2023"
         ,"Links": [
             {"Paper": "https://escholarship.org/uc/item/2sj3r0n2"},
             {"Website": "https://sites.google.com/view/vi-vr"},
         ]
     },
     {
-        "Name":  "Triangular Character Animation Sampling with Motion, Emotion, and Relation"
-        ,"Img": "/animation.png"
-        ,"Authors": "Yizhou Zhao, Liang Qiu, Wensi Ai, Pan Lu, Song-Chun Zhu"
-        ,"Info": "Arxiv Preprint"
+        "Name":  "BEHAVIOR-1K: A Human-Centered, Embodied AI Benchmark with 1,000 Everyday Activities and Realistic Simulation"
+        ,"Img": "/b1k.png"
+        ,"Authors": "Chengshu Li*, Ruohan Zhang*, Josiah Wong*, Cem Gokmen*, Sanjana Srivastava*, Roberto Martín-Martín*, Chen Wang*, Gabrael Levine*, Wensi Ai*, et. al." //Benjamin Martinez, Hang Yin, Michael Lingelbach, Minjune Hwang, Ayano Hiranaka, Sujay Garlanka, Arman Aydin, Sharon Lee, Jiankai Sun, Mona Anvari, Manasi Sharma, Dhruva Bansal, Samuel Hunter, Kyu-Young Kim, Alan Lou, Caleb R Matthews, Ivan Villa-Renteria, Jerry Huayang Tang, Claire Tang, Fei Xia, Yunzhu Li, Silvio Savarese, Hyowon Gweon, C. Karen Liu, Jiajun Wu, Li Fei-Fei"
+        ,"Info": "CoRL 2022"
         ,"Links": [
-            {"Paper": "https://arxiv.org/abs/2203.04930"},
-            {"Github": "https://github.com/yizhouzhao/EQTest"},
+            {"Paper": "https://arxiv.org/abs/2403.09227"},
+            {"Website": "https://behavior.stanford.edu/"},
         ]
-    }
+    },
 ]
 
 
@@ -52,6 +51,15 @@ export let research_en = [
 // project items
 
 export let proj_en = [
+    {
+        "Name":  "Simulately"
+        ,"Img": "/simulately.png"
+        ,"Info": "Resources for physics simulators in robot learning research"
+        ,"Links": [
+            {"Github": "https://github.com/geng-haoran/Simulately"},
+            {"Website": "https://simulately.wiki/"},
+        ]
+    },
     {
         "Name":  "OmniGibson"
         ,"Img": "/OmniGibson.png"
@@ -64,21 +72,11 @@ export let proj_en = [
     {
         "Name": "VRKitchen2.0-IndoorKit"
         ,"Img": "/IndoorKit.png"
-        ,"Info": "Augmented Indoor Scene Building in Omniverse"
+        ,"Info": "Augmented indoor scene building in Omniverse"
         ,"Links": [
             {"Github": "https://github.com/yizhouzhao/VRKitchen2.0-IndoorKit"},
             {"Website": "https://vrkitchen20-tutorial.readthedocs.io/en/latest/"},
             {"Paper": "https://arxiv.org/abs/2206.11887"},
-        ]
-    },
-    {
-        "Name":  "GenMotion"
-        ,"Img": "/genmotion.png"
-        ,"Info": "Data-driven Motion Generators for Real-time Animation Synthesis"
-        ,"Links": [
-            {"Github": "https://github.com/yizhouzhao/GenMotion"},
-            {"Website": "https://genmotion.readthedocs.io/en/main/"},            
-            {"Paper": "https://arxiv.org/abs/2112.06060"},
         ]
     },
     {
@@ -91,16 +89,6 @@ export let proj_en = [
         ]
     },
     {
-        "Name":  "Catching Fire"
-        ,"Img": "/CatchingFire.jpg"
-        ,"Info": "Virtual Reality Game for School Hazard Education"
-        ,"Links": [
-            {"Github": "http://github.com/wensi-ai/CatchingFire"},
-            {"Paper": "https://github.com/wensi-ai/CatchingFire/tree/master/Files/Paper.pdf"},
-            {"Poster": "/CatchingFire.jpg"},
-        ]
-    },
-    {
         "Name":  "eXchange"
         ,"Img": "/eXchange.png"
         ,"Info": "Textbook, notes, and tutoring sharing platform"
@@ -108,6 +96,16 @@ export let proj_en = [
             {"Demo": "https://www.youtube.com/watch?v=6gpFYKKUGSk"},
             {"Github": "https://github.com/CSMT-Westwood/eXchange"},
             {"Website": "https://csmt-westwood.github.io/eXchange/"},
+        ]
+    },
+    {
+        "Name":  "Catching Fire"
+        ,"Img": "/CatchingFire.jpg"
+        ,"Info": "Virtual Reality game for school hazard education"
+        ,"Links": [
+            {"Github": "http://github.com/wensi-ai/CatchingFire"},
+            {"Paper": "https://github.com/wensi-ai/CatchingFire/tree/master/Files/Paper.pdf"},
+            {"Poster": "/CatchingFire.jpg"},
         ]
     },
 ]
