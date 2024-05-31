@@ -5,6 +5,26 @@
 
 export let research_en = [
     {
+        "Name": "BEHAVIOR Vision Suite: Customizable Dataset Generation via Simulation"
+        ,"Img": "/bvs.png"
+        ,"Authors": "Yunhao Ge*, Yihe Tang*, Jiashu Xu*, Cem Gokmen*, Chengshu Li, Wensi Ai, Benjamin Jose Martinez, Arman Aydin, Mona Anvari, Ayush K Chakravarthy, Hong-Xing Yu, Josiah Wong, Sanjana Srivastava, Sharon Lee, Shengxin Zha, Laurent Itti, Yunzhu Li, Roberto Martín-Martín, Miao Liu, Pengchuan Zhang, Ruohan Zhang, Li Fei-Fei, Jiajun Wu"
+        ,"Info": "CVPR 2024"
+        ,"Links": [
+            {"Paper": "https://arxiv.org/abs/2405.09546"},
+            {"Website": "https://behavior-vision-suite.github.io/"},
+        ]        
+    },
+    {
+        "Name": "TeleMoMa: A Modular and Versatile Teleoperation System for Mobile Manipulation"
+        ,"Img": "/telemoma.png"
+        ,"Authors": "Shivin Dass, Wensi Ai, Yuqian Jiang, Samik Singh, Jiaheng Hu, Ruohan Zhang, Peter Stone, Ben Abbatematteo, Roberto Martín-Martín"
+        ,"Info": "ICLR 2024 Workshop on Mobile Manipulation and Embodied Intelligence"
+        ,"Links": [
+            {"Paper": "https://arxiv.org/abs/2403.07869"},
+            {"Website": "https://robin-lab.cs.utexas.edu/telemoma-web/"},
+        ]        
+    },
+    {
         "Name": "NOIR: Neural Signal Operated Intelligent Robots for Everyday Activities"
         ,"Img": "/NOIR.png"
         ,"Authors": "Ruohan Zhang*, Sharon Lee*, Minjune Hwang*, Ayano Hiranaka*, Chen Wang, Wensi Ai, Jin Jie Ryan Tan, Shreya Gupta, Yilun Hao, Gabrael Levine, Ruohan Gao, Anthony Norcia, Li Fei-Fei, Jiajun Wu"

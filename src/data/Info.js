@@ -26,7 +26,7 @@ export let contacts = [
     },
     {
         "name": "Instagram"
-        ,"url": "https://www.instagram.com/vince.ai.817"
+        ,"url": "https://www.instagram.com/wensi_ai"
         ,"img": "/instagram.png"
     },
 ]
