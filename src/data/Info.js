@@ -20,9 +20,9 @@ export let contacts = [
         ,"img": "/github.png"
     },
     {
-        "name": "Twitter"
-        ,"url": "https://www.twitter.com/wensi_ai"
-        ,"img": "/Twitter.png"
+        "name": "X"
+        ,"url": "https://www.x.com/wensi_ai"
+        ,"img": "/X.png"
     },
     {
         "name": "Instagram"
