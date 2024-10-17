@@ -18,7 +18,7 @@ export let research_en = [
         "Name": "TeleMoMa: A Modular and Versatile Teleoperation System for Mobile Manipulation"
         ,"Img": "/telemoma.png"
         ,"Authors": "Shivin Dass, Wensi Ai, Yuqian Jiang, Samik Singh, Jiaheng Hu, Ruohan Zhang, Peter Stone, Ben Abbatematteo, Roberto Martín-Martín"
-        ,"Info": "ICLR 2024 MoMa Workshop"
+        ,"Info": "RSS 2024 DGR Workshop"
         ,"Links": [
             {"Paper": "https://arxiv.org/abs/2403.07869"},
             {"Website": "https://robin-lab.cs.utexas.edu/telemoma-web/"},
