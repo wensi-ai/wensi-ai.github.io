@@ -13,6 +13,10 @@
   margin-top: 2vh;
 }
 
+.IntroWrapper h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .ContactImg {
   display: flex;
   margin-left: -1vw;
