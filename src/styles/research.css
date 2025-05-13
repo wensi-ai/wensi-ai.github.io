@@ -13,6 +13,45 @@
     border-style: solid;
 }
 
+.ResearchSelection {
+    position: relative;
+    top: 10vh;
+    left: 15%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.ResearchSelection {
+    position: relative;
+    top: 10vh;
+    left: 15%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.ResearchButton {
+    font-size: calc(10px + 0.4vw);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0 0.5rem;
+}
+
+#active_research_button {
+    color: #8C1515;
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+#inactive_research_button {
+    color: rgb(100, 100, 100);
+}
+
+#active_research_button:hover, #inactive_research_button:hover {
+    text-decoration: underline;
+}
+
 .ResearchWrapper {
     position: relative;
     top: 15vh;

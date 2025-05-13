@@ -25,11 +25,6 @@ export let contacts = [
         ,"img": "/X.png"
     },
     {
-        "name": "Instagram"
-        ,"url": "https://www.instagram.com/wensi_ai"
-        ,"img": "/instagram.png"
-    },
-    {
         "name": "Scholar"
         ,"url": "https://scholar.google.com/citations?user=sjhu_wUAAAAJ&hl=en"
         ,"img": "/googlescholar.svg"

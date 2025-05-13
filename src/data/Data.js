@@ -9,6 +9,7 @@ export let research_en = [
         ,"Img": "/bvs.png"
         ,"Authors": "Yunhao Ge*, Yihe Tang*, Jiashu Xu*, Cem Gokmen*, Chengshu Li, Wensi Ai, Benjamin Jose Martinez, Arman Aydin, Mona Anvari, Ayush K Chakravarthy, Hong-Xing Yu, Josiah Wong, Sanjana Srivastava, Sharon Lee, Shengxin Zha, Laurent Itti, Yunzhu Li, Roberto Martín-Martín, Miao Liu, Pengchuan Zhang, Ruohan Zhang, Li Fei-Fei, Jiajun Wu"
         ,"Info": "CVPR 2024"
+        ,"Selected": false
         ,"Links": [
             {"Paper": "https://arxiv.org/abs/2405.09546"},
             {"Website": "https://behavior-vision-suite.github.io/"},
@@ -19,6 +20,7 @@ export let research_en = [
         ,"Img": "/telemoma.png"
         ,"Authors": "Shivin Dass, Wensi Ai, Yuqian Jiang, Samik Singh, Jiaheng Hu, Ruohan Zhang, Peter Stone, Ben Abbatematteo, Roberto Martín-Martín"
         ,"Info": "RSS 2024 DGR Workshop"
+        ,"Selected": false
         ,"Links": [
             {"Paper": "https://arxiv.org/abs/2403.07869"},
             {"Website": "https://robin-lab.cs.utexas.edu/telemoma-web/"},
@@ -29,6 +31,7 @@ export let research_en = [
         ,"Img": "/NOIR.png"
         ,"Authors": "Ruohan Zhang*, Sharon Lee*, Minjune Hwang*, Ayano Hiranaka*, Chen Wang, Wensi Ai, Jin Jie Ryan Tan, Shreya Gupta, Yilun Hao, Gabrael Levine, Ruohan Gao, Anthony Norcia, Li Fei-Fei, Jiajun Wu"
         ,"Info": "CoRL 2023"
+        ,"Selected": false
         ,"Links": [
             {"Paper": "https://arxiv.org/abs/2311.01454"},
             {"Website": "https://noir-corl.github.io/"},
@@ -39,6 +42,7 @@ export let research_en = [
         ,"Img": "/ARNOLD.png"
         ,"Authors": "Ran Gong*, Jiangyong Huang*, Yizhou Zhao, Haoran Geng, Xiaofeng Gao, Qingyang Wu, Wensi Ai, Ziheng Zhou, Demetri Terzopoulos, Song-Chun Zhu, Baoxiong Jia, Siyuan Huang"
         ,"Info": "ICCV 2023"
+        ,"Selected": false
         ,"Links": [
             {"Paper": "https://arxiv.org/abs/2304.04321"},
             {"Website": "https://arnold-benchmark.github.io"},
@@ -49,6 +53,7 @@ export let research_en = [
         ,"Img": "/vivr.png"
         ,"Authors": "Wensi Ai, Sharon Lee, Li Fei-Fei, Jiajun Wu, Ruohan Zhang"
         ,"Info": "CogSci 2023"
+        ,"Selected": true
         ,"Links": [
             {"Paper": "https://escholarship.org/uc/item/2sj3r0n2"},
             {"Website": "https://sites.google.com/view/vi-vr"},
@@ -59,6 +64,7 @@ export let research_en = [
         ,"Img": "/b1k.png"
         ,"Authors": "Chengshu Li*, Ruohan Zhang*, Josiah Wong*, Cem Gokmen*, Sanjana Srivastava*, Roberto Martín-Martín*, Chen Wang*, Gabrael Levine*, Wensi Ai*, et. al." //Benjamin Martinez, Hang Yin, Michael Lingelbach, Minjune Hwang, Ayano Hiranaka, Sujay Garlanka, Arman Aydin, Sharon Lee, Jiankai Sun, Mona Anvari, Manasi Sharma, Dhruva Bansal, Samuel Hunter, Kyu-Young Kim, Alan Lou, Caleb R Matthews, Ivan Villa-Renteria, Jerry Huayang Tang, Claire Tang, Fei Xia, Yunzhu Li, Silvio Savarese, Hyowon Gweon, C. Karen Liu, Jiajun Wu, Li Fei-Fei"
         ,"Info": "CoRL 2022"
+        ,"Selected": true
         ,"Links": [
             {"Paper": "https://arxiv.org/abs/2403.09227"},
             {"Website": "https://behavior.stanford.edu/"},
