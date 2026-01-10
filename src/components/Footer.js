@@ -5,7 +5,7 @@ import "../styles/Home.css"
 export default function Footer(props) {
     return (
         <div className="Footer">
-            <p>Last updated by {name} @ 04/21/2025</p>
+            <p>Last updated by {name} @ 01/09/2026</p>
             <strong>{email}</strong>
         </div>
     );

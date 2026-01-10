@@ -19,12 +19,12 @@ export default function About() {
                 <main className="About">
                     <div className="AboutParagraph">
                         <div>
-                            I am an incoming CS PhD student at Stanford University. I am generally interested in {research_topic}, with a focus on {research_interest}.
+                            I am a CS PhD student at Stanford University advised by Prof. <a href="https://profiles.stanford.edu/fei-fei-li"> Fei-Fei Li</a> as part of the <a href="https://svl.stanford.edu">Stanford Vision and Learning Lab (SVL)</a>. I am generally interested in {research_topic}, with a focus on {research_interest}.
                         </div>
                         <br/>
                         <div>
                             Previously, I received M.S. in Computer Science from Stanford University, and B.S. in Computer Science and Applied Math from UCLA. 
-                            I was fortunate te be adviced by Prof. <a href="https://profiles.stanford.edu/fei-fei-li"> Fei-Fei Li</a> and Prof. <a href="https://jiajunwu.com">Jiajun Wu</a> at <a href="https://svl.stanford.edu">Stanford Vision and Learning Lab (SVL)</a> and Prof. <a href="http://www.stat.ucla.edu/~sczhu/">Song-Chun Zhu</a> at <a href="https://vcla.stat.ucla.edu/">VCLA</a>. 
+                            I was fortunate to have worked with Prof. <a href="https://jiajunwu.com">Jiajun Wu</a> and Prof. <a href="http://www.stat.ucla.edu/~ywu/">Ying-Nian Wu</a>. 
                         </div>
                     </div>
                     <img className="Selfie" src="/selfie.jpg" alt="selfie" />
