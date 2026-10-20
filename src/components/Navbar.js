@@ -1,27 +1,17 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import '../styles/Navbar.css'
-import { SideBar } from "./MenuBar"
 
-const enDict = ["Home", "Research", "Projects", "CV"];
-
-export default function Navbar(props) {
-    let Dict = enDict;
-
-    return (
-        <header className="NavBarHeader">
-            <SideBar  Dict={Dict}/>
-            <nav className = "NavBarWrapper">
-                <div className="Spacer" />
-                <div className="NavItem">
-                    <ul>
-                        <Link to="/">{Dict[0]}</Link>
-                        <Link to="/research">{Dict[1]}</Link>
-                        <Link to="/projects">{Dict[2]}</Link>
-                        <a href="/Wensi_Ai_CV.pdf">{Dict[3]}</a>
-                    </ul>
-                </div>
+export default function Navbar() {
+    return <header className="site-header">
+        <div className="header-inner">
+            <Link className="wordmark" to="/" aria-label="Wensi Ai home">Wensi Ai</Link>
+            <nav aria-label="Main navigation">
+                <Link to="/" activeClassName="active">Home</Link>
+                <Link to="/research/" activeClassName="active">Research</Link>
+                <Link to="/projects/" activeClassName="active">Projects</Link>
+                <a href="/Wensi_Ai_CV.pdf">CV <span aria-hidden="true">↗</span></a>
             </nav>
-        </header>
-    );
+        </div>
+    </header>
 }

@@ -1,12 +1,9 @@
 import React from 'react'
-import { name, email } from "../data/Info"
-import "../styles/Home.css"
+import { email } from '../data/Info'
 
-export default function Footer(props) {
-    return (
-        <div className="Footer">
-            <p>Last updated by {name} @ 01/09/2026</p>
-            <strong>{email}</strong>
-        </div>
-    );
+export default function Footer() {
+    return <footer className="site-footer">
+        <span>Wensi (Vince) Ai <span className="footer-dot" aria-hidden="true">/</span> Stanford University</span>
+        <span>{email}</span>
+    </footer>
 }

@@ -5,6 +5,40 @@
 
 export let research_en = [
     {
+        "Name": "I3L: Iterative Interactive Imitation Learning for Whole-Body Mobile Manipulation"
+        ,"Img": "/i3l.jpg"
+        ,"Authors": "Wensi Ai*, Christopher Luey*, Karthik Dharmarajan*, Evans Han, Yunfan Jiang, Stef Ren, Jianwen Xie, Jiajun Wu, Li Fei-Fei†, Ruohan Zhang†"
+        ,"Info": "arXiv 2026"
+        ,"Selected": true
+        ,"Links": [
+            {"Paper": "https://arxiv.org/abs/2610.17748"},
+            {"Website": "https://i-3l.github.io/"},
+            {"Github": "https://github.com/i-3l/I3L"},
+        ]
+    },
+    {
+        "Name": "RoboRender: Robot-Oriented Video Generation for Visual Sim-to-Real Transfer"
+        ,"Img": "/roborender.png"
+        ,"Authors": "Huang Huang*, Wensi Ai*, Ziyu Chen*, Youhui Wang*, Zijian Du, Yang Liu, Jiaolong Yang, Li Fei-Fei, Jiajun Wu"
+        ,"Info": "arXiv 2026"
+        ,"Selected": true
+        ,"Links": [
+            {"Paper": "https://arxiv.org/abs/2610.09254"},
+            {"Website": "https://robo-render.github.io/"},
+            {"Github": "https://github.com/robo-render/RoboRender-Video-Model"},
+        ]
+    },
+    {
+        "Name": "EEG-Based Brain-Computer Interface for Robotic Assistance with User Intention Prediction"
+        ,"Img": "/noir-eeg.png"
+        ,"Authors": "Ruohan Zhang*, Tasha Kim*, Yingke Wang*, Hanvit Cho, Alex Hodges, Jin Jie Ryan Tan, Chen Wang, Minjune Hwang, Sharon Lee, Ayano Hiranaka, Wensi Ai, Anthony Norcia†, Li Fei-Fei†, Jiajun Wu†"
+        ,"Info": "Research Square preprint 2025"
+        ,"Selected": false
+        ,"Links": [
+            {"Paper": "https://www.researchsquare.com/article/rs-7359180/v1"},
+        ]
+    },
+    {
         "Name": "BEHAVIOR Vision Suite: Customizable Dataset Generation via Simulation"
         ,"Img": "/bvs.png"
         ,"Authors": "Yunhao Ge*, Yihe Tang*, Jiashu Xu*, Cem Gokmen*, Chengshu Li, Wensi Ai, Benjamin Jose Martinez, Arman Aydin, Mona Anvari, Ayush K Chakravarthy, Hong-Xing Yu, Josiah Wong, Sanjana Srivastava, Sharon Lee, Shengxin Zha, Laurent Itti, Yunzhu Li, Roberto Martín-Martín, Miao Liu, Pengchuan Zhang, Ruohan Zhang, Li Fei-Fei, Jiajun Wu"
@@ -70,6 +104,16 @@ export let research_en = [
             {"Website": "https://behavior.stanford.edu/"},
         ]
     },
+    {
+        "Name": "Triangular Character Animation Sampling with Motion, Emotion, and Relation"
+        ,"Img": "/triangular-animation-figure2.png"
+        ,"Authors": "Yizhou Zhao, Liang Qiu, Wensi Ai, Pan Lu, Song-Chun Zhu"
+        ,"Info": "arXiv 2022"
+        ,"Selected": false
+        ,"Links": [
+            {"Paper": "https://arxiv.org/abs/2203.04930"},
+        ]
+    },
 ]
 
 
@@ -77,6 +121,16 @@ export let research_en = [
 // project items
 
 export let proj_en = [
+    {
+        "Name":  "Dream2Policy"
+        ,"Img": "/d2p.pdf"
+        ,"Info": "Resources for physics simulators in robot learning research"
+        ,"Links": [
+            {"Github": "https://github.com/wensi-ai/Dream2Policy"},
+            {"Paper": "https://github.com/wensi-ai/Dream2Policy/blob/main/paper/final_report.pdf"},
+            {"Poster": "/d2p.pdf"},
+        ]
+    },
     {
         "Name":  "Simulately"
         ,"Img": "/simulately.png"

@@ -1,36 +1,20 @@
-import React from "react";
-import { name, contacts, research_topic, research_interest } from "../data/Info";
-import "../styles/Home.css";
+import React from 'react'
+import { contacts, research_topic, research_interest } from '../data/Info'
+import '../styles/Home.css'
 
-export default function About() {
-    return (
-        <div className="Intro">
-            <div className="IntroWrapper">
-                <h1>Hi, I'm {name}</h1>
-                <div className="ContactImg">
-                    {contacts.map(function (dict) {
-                        return (
-                        <a href={dict.url} key={dict.name}>
-                            <img src={dict.img} alt={dict.name} />
-                        </a>
-                        );
-                    })}
-                </div>
-                <main className="About">
-                    <div className="AboutParagraph">
-                        <div>
-                            I am a CS PhD student at Stanford University advised by Prof. <a href="https://profiles.stanford.edu/fei-fei-li"> Fei-Fei Li</a> as part of the <a href="https://svl.stanford.edu">Stanford Vision and Learning Lab (SVL)</a>. I am generally interested in {research_topic}, with a focus on {research_interest}.
-                        </div>
-                        <br/>
-                        <div>
-                            Previously, I received M.S. in Computer Science from Stanford University, and B.S. in Computer Science and Applied Math from UCLA. 
-                            I was fortunate to have worked with Prof. <a href="https://jiajunwu.com">Jiajun Wu</a> and Prof. <a href="http://www.stat.ucla.edu/~ywu/">Ying-Nian Wu</a>. 
-                        </div>
-                    </div>
-                    <img className="Selfie" src="/selfie.jpg" alt="selfie" />
-                </main>
+export default function Intro() {
+    return <section className="intro" aria-labelledby="intro-title">
+        <div className="intro-copy">
+            <h1 id="intro-title">Wensi <span className="nickname">(Vince)</span> Ai</h1>
+            <div className="intro-bio">
+                <p>I am a CS PhD student at Stanford University advised by Prof. <a href="https://profiles.stanford.edu/fei-fei-li">Fei-Fei Li</a> in the <a href="https://svl.stanford.edu">Stanford Vision and Learning Lab (SVL)</a>. My research is in {research_topic}, with a focus on {research_interest}.</p>
+                <p>Previously, I received my M.S. in Computer Science from Stanford and B.S. in Computer Science and Applied Math from <span className="ucla-accent">UCLA</span>. I was fortunate to work with Prof. <a href="https://jiajunwu.com">Jiajun Wu</a> and Prof. <a href="http://www.stat.ucla.edu/~ywu/">Ying-Nian Wu</a>.</p>
+            </div>
+            <div className="social-links" aria-label="Contact and profiles">
+                <a href="mailto:wsai@stanford.edu">Email <span aria-hidden="true">↗</span></a>
+                {contacts.map(contact => <a key={contact.name} href={contact.url}>{contact.name === 'Github' ? 'GitHub' : contact.name === 'Linkedin' ? 'LinkedIn' : contact.name} <span aria-hidden="true">↗</span></a>)}
+            </div>
         </div>
-        <br/>
-        </div>
-    );
-    }
+        <figure className="portrait"><img src="/selfie.jpg" alt="Wensi (Vince) Ai" width="1280" height="1707" /></figure>
+    </section>
+}
